@@ -3,7 +3,7 @@ from fabric.network import ssh
 ssh.util.log_to_file("paramiko.log", 10)
 env.hosts = ['164.132.42.156']
 env.user = 'root'
-env.key_filename = 'C:/Users/Ben/Documents/keys/ovh_rsa_priv.pem'
+env.key_filename = 'priv.pem'
 env.warn_only=True
 
 def local_host():
